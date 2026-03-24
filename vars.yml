@@ -1,0 +1,4 @@
+user_password: "{{ 'Uninove@10' | password_hash('sha512') }}"
+db_name: zabbix
+db_user: zabbix
+db_password: zabbix
